@@ -1,9 +1,9 @@
 # EXTRA CREDIT PROGRAM SELECTION
 
-Option Two:
+Option Selection: Option Two
 > program from all 4 sections, and present your code in class, for 100% credit on your choice of final exam or midterm. 
 
-Section One Choice:
+Section One Choice: EnumerateTM.py
 > 5 pts. Enumerate TMs. Enumerate all possible TMs over alphabet = {a, b}, tape alpahbet = { a, b, _ }. Print the first 20 TMs
 
 Section Two Choice:
