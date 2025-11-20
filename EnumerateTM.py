@@ -88,7 +88,7 @@ def print_tm(tm, index):
 
     # Sort by state then symbol
     for (state, sym), (nxt_st, tape_char, direction) in sorted(tm['transitions'].items()):
-        if ns == 'HALT':
+        if nxt_st == 'HALT':
             print(f"    δ(q{state}, {sym}) = HALT")
         else:
             print(f"    δ(q{state}, {sym}) = (q{nxt_st}, {tape_char}, {direction})")
