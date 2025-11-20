@@ -1,5 +1,7 @@
 # EXTRA CREDIT PROGRAM SELECTION
 
+I decided to complete option two for the extra credit programs. Listed below are the specific programs that I have selected for each section along with the corresponding file name. 
+
 Option Selection: Option Two
 > program from all 4 sections, and present your code in class, for 100% credit on your choice of final exam or midterm. 
 
