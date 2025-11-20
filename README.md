@@ -7,16 +7,20 @@ I decided to complete option two for the extra credit programs. Listed below are
 
 ## Section One Choice: 
 > file name: EnumerateTM.py
+> 
 > 5 pts. Enumerate TMs. Enumerate all possible TMs over alphabet = {a, b}, tape alpahbet = { a, b, _ }. Print the first 20 TMs
 
 ## Section Two Choice: 
 > file name:  ValidateDFA.py
+> 
 > 3 pts. Validate DFA. Return 1 if valid, 0 otherwise. Print examples of both valid and invalid cases. 
 
 ## Section Three Choice: 
 > file name:  Convert_NFA_To_REGEX.py
+> 
 > 50 pts. Convert REGEX to NFA. Show formal descriptions of GNFAs after each "rip". Use program from above to convert NFA to DFA. Requires you to do three programs.
 
 ## Section Four Choice: 
 > file name:  CFG_Recog_Empty_Lang.py
+> 
 > 20 pts. Determine if CFG recognizes the empty language. 
