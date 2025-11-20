@@ -64,8 +64,8 @@ def enumerate_tms():
             transitions = {}
             for (pos, rule) in zip(trans_table, combo):
                 state, sym = pos
-                ns, write, move = rule
-                transitions[(state, sym)] = (ns, write, move)
+                nxt_st, tape_Char, direction = rule
+                transitions[(state, sym)] = (nxt_st, tape_char, direction)
 
             tm = {
                 'num_states': num_states,
@@ -87,11 +87,11 @@ def print_tm(tm, index):
     print("  Transitions:")
 
     # Sort by state then symbol
-    for (state, sym), (ns, write, move) in sorted(tm['transitions'].items()):
+    for (state, sym), (nxt_st, tape_char, direction) in sorted(tm['transitions'].items()):
         if ns == 'HALT':
             print(f"    δ(q{state}, {sym}) = HALT")
         else:
-            print(f"    δ(q{state}, {sym}) = (q{ns}, {write}, {move})")
+            print(f"    δ(q{state}, {sym}) = (q{nxt_st}, {tape_char}, {direction})")
     print()
 
 def main():
