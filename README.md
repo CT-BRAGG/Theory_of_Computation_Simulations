@@ -9,7 +9,7 @@ Section One Choice: EnumerateTM.py
 Section Two Choice: ValidateDFA.py
 > 3 pts. Validate DFA. Return 1 if valid, 0 otherwise. Print examples of both valid and invalid cases. 
 
-Section Three Choice: Convert_NFA_To_Regex.py
+Section Three Choice: Convert_NFA_To_REGEX.py
 > 50 pts. Convert REGEX to NFA. Show formal descriptions of GNFAs after each "rip". Use program from above to convert NFA to DFA. Requires you to do three programs.
 
 Section Four Choice: CFG_Recog_Empty_Lang.py
